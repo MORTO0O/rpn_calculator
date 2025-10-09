@@ -43,22 +43,22 @@
  - Если пользователь хочет ввести выражение со скобками, то ввод должен выглядеть так: ( 2 + 3 ) * 5
  - Унарный минус обозначается как "-5" или как "5 ~"
  - Список поддерживаемых операций:
-    1. Бинарные: +, -, *, //, %, /, **
-    2. Унарные: ~, @
+    * Бинарные: +, -, *, //, %, /, **
+    * Унарные: ~, @
 
 ## Инструкция к использованию
  1. Клонирование репозитория:
-    git clone https://github.com/MORTO0O/rpn_calculator
-    cd /rpn_calculator
+    - git clone https://github.com/MORTO0O/rpn_calculator
+    - cd /rpn_calculator
  2. Создание виртуального окружения:
-    python -m venv venv
-    source venv\Scripts\activate
+    - python -m venv venv
+    - source venv\Scripts\activate
  3. Установка зависимостей:
-    pip install -r requirements.txt
+    - pip install -r requirements.txt
  4. Установка pre-commit:
-    pre-commit install
+    - pre-commit install
  5. Запуск калькулятора:
-    cd src
-    python main.py
+    - cd src
+    - python main.py
  6. Запуск тестов:
-    python -m unittest discover -s tests -v
+    - python -m unittest discover -s tests -v
